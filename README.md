@@ -49,19 +49,24 @@ O dataset representa um base de dados com data, as vendas de baldes de açaí de
 
 
 ## Preparando o ambiente no Azure Machine Learning
-- [ ] Criar um Resource Group: rg-projetoum-dpcem
-	- [ ] Atribua um nome: rg-dio
+- [ ] Criar um Resource Group
+
+  - [ ] Atribua um nome
 
        ![image](https://github.com/user-attachments/assets/95292861-82a4-4606-8523-8688216488b5)
        ![image](https://github.com/user-attachments/assets/934f5e5a-d379-483e-9944-15b8106a1c94)
 
-       
 
 
-![[Pasted image 20250312120144.png]]
+### Cria o Machine Learning Workspace
 
-### 1.6.1 Cria o Machine Learning Workspace
-![[Pasted image 20250312123511.png]]
+  - [ ] Atribua um nome
+        ![image](https://github.com/user-attachments/assets/ee02897b-ed58-4d4f-b63c-c70cb2bdbcb5)
+        
+        
+
+
+
 ### 1.6.2 Criar uma VM (Instância)
 - Obs:
 	- Recomendamos pegar a mais barata.
