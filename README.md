@@ -27,7 +27,9 @@ Com base na observação de que a quantidade de baldes de açai de 30L vendidos 
 
 Para solucionar esse problema, foi desenvolvido um modelo de **Machine Learning** capaz de prever a quantidade de baldes de açaí de 30L que serão vendidos com base na temperatura. Esse modelo permite à açaiteria antecipar a demanda, ajustar a produção de forma estratégica e garantir um gerenciamento de estoque mais eficiente.
 
-O projeto faz uso de conceitos fundamentais de aprendizado de máquina, análise exploratória de dados e técnicas de modelagem preditiva para aprimorar o processo de tomada de decisão. Com isso, a **Açaiteria Serra do Cipó** não apenas melhora a eficiência operacional, mas também aprimora a experiência dos clientes, garantindo que apenas Açaí fresco esteja na experiência dos clientes com o produto da fábrica.
+Os steakholders pretendem criar um planejamento de 15 dias integrando dados meteorológicos futuros da região metropolitana de Belo horizonte, através da aplicação do Google Clima, extraindo os dados das previsões média diárias para cada cidade atendida pela empresa,fazendo a ingestão dos dados no nosso modelo para uma Inferência em Tempo Real.
+
+O projeto faz uso de conceitos fundamentais de aprendizado de máquina, análise exploratória de dados e técnicas de modelagem preditiva para aprimorar o processo de tomada de decisão. Com isso, a **Açaiteria Serra do Cipó** não apenas melhora a eficiência operacional, mas também aprimora a experiência dos clientes, garantindo que apenas Açaí Frozie fresco esteja na experiência dos clientes, ao consumir o produto da fábrica.
 
 ### **Impacto e Relevância**
 
