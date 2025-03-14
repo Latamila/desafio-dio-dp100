@@ -95,9 +95,8 @@ A coluna data foi retirada antes de ser inserida no Workspace do Azure.
   ![image](https://github.com/user-attachments/assets/aa80f326-e56b-4ea1-a57d-3cc738facd6f)
 
 
-  ### Upload o Dataset no Notebook
-- Pegue o csv criado no LLM e faça o upload dentro da seção Notebook
-- Usamos o local file
+  ### Criar Notebook para o Experimento com MLFlow
+
 - Ir até a instância de Computação e abrir o aplicativo jupyter LAB.
   
   ![image](https://github.com/user-attachments/assets/16e8696b-8216-41d9-8adc-4ae5d319609a)
