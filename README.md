@@ -190,13 +190,16 @@ Although you can view the log details in the output above, it's usually easier t
 
 ![image](https://github.com/user-attachments/assets/52217df2-3da9-41a0-a92c-62f9ed3b38f5)
 
-View experiment run history
+### View experiment run history
+---
+
 Now that you've run the same experiment multiple times, you can view the history in Azure Machine Learning studio and explore each logged run. Or you can retrieve an experiment by name from the workspace and iterate through its runs using the SDK:
 
 ![image](https://github.com/user-attachments/assets/b95f5237-84d5-4c42-89d1-120ecfb8a01e)
 
 
 ### **Use MLflow**
+---
 
 
 MLflow is an open source platform for managing machine learning processes. It's commonly (but not exclusively) used in Databricks environments to coordinate experiments and track metrics. In Azure Machine Learning experiments, you can use MLflow to track metrics as an alternative to the native log functionality.
