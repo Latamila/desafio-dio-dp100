@@ -62,6 +62,10 @@ O dataset representa um base de dados com data, as vendas de baldes de açaí de
 
   - [ ] Atribua um nome
         ![image](https://github.com/user-attachments/assets/ee02897b-ed58-4d4f-b63c-c70cb2bdbcb5)
+        ![image](https://github.com/user-attachments/assets/399fdb54-43e1-4e43-b439-434fcf74817d)
+        ![image](https://github.com/user-attachments/assets/47a5fd1c-211c-4749-8d24-28f6d07c141c)
+
+
         
         
 
