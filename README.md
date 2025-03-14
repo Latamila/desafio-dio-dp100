@@ -92,9 +92,10 @@ O dataset representa um base de dados com data, as vendas de baldes de açaí de
 - Ir até a instância de Computação e abrir o aplicativo jupyter LAB.
   
 
-Trabalhar no código
 
-Pré processamento dos dados 
+
+Fazer Pré processamento dos dados, transformando o dataset inicial em um sample para o output do experimento. 
+
   ![image](https://github.com/user-attachments/assets/6a15fc41-1b0b-468b-a19a-90481f5ca465)
 
 
