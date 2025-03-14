@@ -78,17 +78,26 @@ O dataset representa um base de dados com data, as vendas de baldes de açaí de
 ### 1.6.2 Criar uma VM (Instância)
 - Obs:
 	- Recomendamos pegar a mais barata.
-	-![[Pasted image 20250312135012.png]] 
+   ![image](https://github.com/user-attachments/assets/fa4b00ef-3296-44fa-8747-6b62a71e6e32)
+
 	
 ### 1.6.3 Crie um Cluster
 
+![image](https://github.com/user-attachments/assets/8c9dde4d-5cba-4c8e-a10d-acf5e2518f54)
 
-### 1.6.4 Upload o Dataset
-- Pegue o csv criado no LLM e faça o upload
+
+### Upload o Dataset no Notebook
+- Pegue o csv criado no LLM e faça o upload dentro da seção Notebook
 - Usamos o local file
-- No caso não utilizamos a coluna Data
-- ![[Pasted image 20250312135700.png]]
-- ![[Pasted image 20250312135754.png]]
+- Ir até a instância de Computação e abrir o aplicativo jupyter LAB.
+  
+
+Trabalhar no código
+
+Pré processamento dos dados 
+  ![image](https://github.com/user-attachments/assets/6a15fc41-1b0b-468b-a19a-90481f5ca465)
+
+
 ## 1.7 Treinar um modelo de Regressão
 
 ### 1.7.1 Criar um AutoML do Modelo
