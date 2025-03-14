@@ -277,6 +277,7 @@ Previsão
 
 
 ### RESULTADOS 
+![image](https://github.com/user-attachments/assets/34ceaf18-d733-4467-a26b-fb589a17f3ee)
 
 ![image](https://github.com/user-attachments/assets/92c7abd0-644e-4d8e-bfbe-153f158f41d8)
 
