@@ -96,6 +96,7 @@ A coluna data foi retirada antes de ser inserida no Workspace do Azure.
 
 
   ### Criar Notebook para o Experimento com MLFlow
+  ---
 
 - Ir até a instância de Computação e abrir o aplicativo jupyter LAB.
   
@@ -112,13 +113,16 @@ Fazer Pré processamento dos dados, transformando o dataset inicial em um sample
   ![image](https://github.com/user-attachments/assets/6a15fc41-1b0b-468b-a19a-90481f5ca465)
 
 sample.csv
+
   ![image](https://github.com/user-attachments/assets/7a22e0eb-2e9d-4eb7-85d8-64afcdc38428)
 
-Retrieve experiment details using the SDK
+### Retrieve experiment details using the SDK
+
 The run variable in the code you ran previously is an instance of a Run object, which is a reference to an individual run of an experiment in Azure Machine Learning. You can use this reference to get information about the run and its outputs:
 
   ![image](https://github.com/user-attachments/assets/1d142d55-2014-47d0-80e8-5e1559f23576)
 
+Aqui mostra as métricas observadas do experimento. Nota-se que o experimento detectou que há 50 amostras. 
 
 You can download the files produced by the experiment, either individually by using the download_file method, or by using the download_files method to retrieve multiple files. The following code downloads all of the files in the run's output folder:
 
@@ -129,11 +133,11 @@ If ou need to troubleshoot the experiment run, you can use the get_details metho
 ![image](https://github.com/user-attachments/assets/136f6470-6739-4c81-8c7c-ddfe2061c1c7)
 
 
-Note that the details include information about the compute target on which the experiment was run, the date and time when it started and ended. Additionally, because the notebook containing the experiment code (this one) is in a cloned Git repository, details about the repo, branch, and status are recorded in the run history.
+Note that the details include information about the compute target on which the experiment was run, the date and time when it started and ended. 
 
-In this case, note that the logFiles entry in the details indicates that no log files were generated. That's typical for an inline experiment like the one you ran, but things get more interesting when you run a script as an experiment; which is what we'll look at next.
 
-Run an experiment script
+### Run an experiment script
+
 In the previous example, you ran an experiment inline in this notebook. A more flexible solution is to create a separate script for the experiment, and store it in a folder along with any other files it needs, and then use Azure ML to run the experiment based on the script in the folder.
 
 First, let's create a folder for the experiment files, and copy the data into it:
