@@ -58,11 +58,10 @@ A coluna data foi retirada antes de ser inserida no Workspace do Azure.
 ## Preparando o ambiente no Azure Machine Learning
 
 - [ ] Criar um Resource Group
+- [ ] - [ ] Atribua um nome
 
-  - [ ] Atribua um nome
-
-       ![image](https://github.com/user-attachments/assets/95292861-82a4-4606-8523-8688216488b5)
-       ![image](https://github.com/user-attachments/assets/934f5e5a-d379-483e-9944-15b8106a1c94)
+![image](https://github.com/user-attachments/assets/95292861-82a4-4606-8523-8688216488b5)
+![image](https://github.com/user-attachments/assets/934f5e5a-d379-483e-9944-15b8106a1c94)
 
 
 
