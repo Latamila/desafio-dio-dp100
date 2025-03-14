@@ -146,6 +146,10 @@ Note that the details include information about the compute target on which the 
 
 In the previous example, you ran an experiment inline in this notebook. A more flexible solution is to create a separate script for the experiment, and store it in a folder along with any other files it needs, and then use Azure ML to run the experiment based on the script in the folder.
 
+
+Now we'll create a Python script containing the code for our experiment, and save it in the experiment folder.
+
+Note: running the following cell just creates the script file - it doesn't run it!
 First, let's create a folder for the experiment files, and copy the data into it:
 
 ![image](https://github.com/user-attachments/assets/41835688-d1ce-47fb-9c3e-462d1369fed9)
@@ -156,14 +160,14 @@ Now we'll create a Python script containing the code for our experiment, and sav
 
 Note: running the following cell just creates the script file - it doesn't run it!
 
-![image](https://github.com/user-attachments/assets/3b5ddc8c-51a0-44de-97b2-c3fa5f554f63)
-
 This code is a simplified version of the inline code used before. However, note the following:
 
 It uses the Run.get_context() method to retrieve the experiment run context when the script is run.
-It loads the diabetes data from the folder where the script is located.
+It loads the açai Sales'data from the folder where the script is located.
 It creates a folder named outputs and writes the sample file to it - this folder is automatically uploaded to the experiment run
-Now you're almost ready to run the experiment. To run the script, you must create a ScriptRunConfig that identifies the Python script file to be run in the experiment, and then run an experiment based on it.
+Now you're almost ready to run the experiment. 
+
+To run the script, you must create a ScriptRunConfig that identifies the Python script file to be run in the experiment, and then run an experiment based on it.
 
 Note: The ScriptRunConfig also determines the compute target and Python environment. If you don't specify these, a default environment is created automatically on the local compute where the code is being run (in this case, where this notebook is being run).
 
