@@ -99,6 +99,9 @@ A coluna data foi retirada antes de ser inserida no Workspace do Azure.
   ---
 
 - Ir até a instância de Computação e abrir o aplicativo jupyter LAB.
+
+  Neste estudo de caso, me atentarei a demonstrar como integrar o MLFlow a um experimento genérico dado que iremos implantar de ponta-a-ponta um modelo com AutoML e com Designer Azure Machine Learning.
+  
   
   ![image](https://github.com/user-attachments/assets/16e8696b-8216-41d9-8adc-4ae5d319609a)
 
@@ -108,21 +111,22 @@ A coluna data foi retirada antes de ser inserida no Workspace do Azure.
 
 
 
-Fazer Pré processamento dos dados, transformando o dataset inicial em um sample para o output do experimento. 
+Fazer Pré processamento dos dados, transformando o dataset inicial dadosExperimento.csv em um sample.csv para o output do experimento. 
 
-  ![image](https://github.com/user-attachments/assets/6a15fc41-1b0b-468b-a19a-90481f5ca465)
+![image](https://github.com/user-attachments/assets/6a15fc41-1b0b-468b-a19a-90481f5ca465)
 
 sample.csv
 
-  ![image](https://github.com/user-attachments/assets/7a22e0eb-2e9d-4eb7-85d8-64afcdc38428)
+![image](https://github.com/user-attachments/assets/7a22e0eb-2e9d-4eb7-85d8-64afcdc38428)
 
 ### Retrieve experiment details using the SDK
+---
 
-The run variable in the code you ran previously is an instance of a Run object, which is a reference to an individual run of an experiment in Azure Machine Learning. You can use this reference to get information about the run and its outputs:
+The *run* variable in the code you ran previously is an instance of a Run object, which is a reference to an individual run of an experiment in Azure Machine Learning. You can use this reference to get information about the run and its outputs:
 
   ![image](https://github.com/user-attachments/assets/1d142d55-2014-47d0-80e8-5e1559f23576)
 
-Aqui mostra as métricas observadas do experimento. Nota-se que o experimento detectou que há 50 amostras. 
+Aqui mostrará métricas geradas a partir do experimento. Note-se que o experimento detectou que há 50 amostras. Se ele produzir outras métricas, estas serão exibidas neste momento. 
 
 You can download the files produced by the experiment, either individually by using the download_file method, or by using the download_files method to retrieve multiple files. The following code downloads all of the files in the run's output folder:
 
@@ -137,6 +141,8 @@ Note that the details include information about the compute target on which the 
 
 
 ### Run an experiment script
+---
+
 
 In the previous example, you ran an experiment inline in this notebook. A more flexible solution is to create a separate script for the experiment, and store it in a folder along with any other files it needs, and then use Azure ML to run the experiment based on the script in the folder.
 
