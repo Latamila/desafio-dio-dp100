@@ -125,6 +125,17 @@ If ou need to troubleshoot the experiment run, you can use the get_details metho
 ![image](https://github.com/user-attachments/assets/136f6470-6739-4c81-8c7c-ddfe2061c1c7)
 
 
+Note that the details include information about the compute target on which the experiment was run, the date and time when it started and ended. Additionally, because the notebook containing the experiment code (this one) is in a cloned Git repository, details about the repo, branch, and status are recorded in the run history.
+
+In this case, note that the logFiles entry in the details indicates that no log files were generated. That's typical for an inline experiment like the one you ran, but things get more interesting when you run a script as an experiment; which is what we'll look at next.
+
+Run an experiment script
+In the previous example, you ran an experiment inline in this notebook. A more flexible solution is to create a separate script for the experiment, and store it in a folder along with any other files it needs, and then use Azure ML to run the experiment based on the script in the folder.
+
+First, let's create a folder for the experiment files, and copy the data into it:
+
+![image](https://github.com/user-attachments/assets/41835688-d1ce-47fb-9c3e-462d1369fed9)
+
 
 
 
@@ -134,6 +145,24 @@ for root, directories, filenames in os.walk(download_folder):
         print (os.path.join(root,filename))
 
 ## 1.7 Treinar um modelo de Regressão
+
+
+Now we'll create a Python script containing the code for our experiment, and save it in the experiment folder.
+
+Note: running the following cell just creates the script file - it doesn't run it!
+
+![image](https://github.com/user-attachments/assets/3b5ddc8c-51a0-44de-97b2-c3fa5f554f63)
+
+This code is a simplified version of the inline code used before. However, note the following:
+
+It uses the Run.get_context() method to retrieve the experiment run context when the script is run.
+It loads the diabetes data from the folder where the script is located.
+It creates a folder named outputs and writes the sample file to it - this folder is automatically uploaded to the experiment run
+Now you're almost ready to run the experiment. To run the script, you must create a ScriptRunConfig that identifies the Python script file to be run in the experiment, and then run an experiment based on it.
+
+Note: The ScriptRunConfig also determines the compute target and Python environment. If you don't specify these, a default environment is created automatically on the local compute where the code is being run (in this case, where this notebook is being run).
+
+
 
 ### 1.7.1 Criar um AutoML do Modelo
 - Fazemos um AutoML: 
