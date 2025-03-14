@@ -432,4 +432,39 @@ Se seu recomenda atualizações, execute-as antes do projeto.
 
 # 1.9 Parabens Voce acabou o primeiro projeto
 
+### DEPLOY DO AUTOML 
+
+De todos os modelos treinados ao final foi escolhido este para deploy:
+
+![image](https://github.com/user-attachments/assets/976000d7-4e1e-4f78-8623-5a1cf0c55cf0)
+
+Suas métricas estavam dentro do esperado e a correlação entre as variáveis se mostra alta. 
+
+![image](https://github.com/user-attachments/assets/1bfb7bee-eee6-4a68-95cf-56d4b2e991ef)
+
+Para implantar, escolha um dos tipos de endpoint
+
+![image](https://github.com/user-attachments/assets/22d81ce7-21c9-405b-be83-51ec00b3b719)
+
+O deploy, necessariamente, precisa ser em instâncias de Conteineres do Azure.
+![image](https://github.com/user-attachments/assets/c73cbdb0-8b35-4b9a-b0c6-40cf22f42ccc)
+
+Ponto de extremidade criado:
+(eles podem demorar até uma hora para aparecer o https. Calma...
+![image](https://github.com/user-attachments/assets/29387f0f-fb33-4e32-b420-f81b42fc908f)
+
+
+
+## DEPLOY DO DESIGNER
+
+Foi feito o registro do modelo 
+![image](https://github.com/user-attachments/assets/9d96a5f9-ed19-4310-a3e3-1422a3ccd60d)
+
+E depois que se registra o modelo, daí sim pode-se implantá-lo. 
+![image](https://github.com/user-attachments/assets/049a5006-8b88-4e9e-9cec-f08d8daaae9b)
+
+Para este escolhi um endpoint em tempo real:
+
+![image](https://github.com/user-attachments/assets/2ece36b6-62ed-47f0-a16f-299143adde63)
+
 
