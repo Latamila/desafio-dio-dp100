@@ -89,16 +89,17 @@ A coluna data foi retirada antes de ser inserida no Workspace do Azure.
 
 ![image](https://github.com/user-attachments/assets/8c9dde4d-5cba-4c8e-a10d-acf5e2518f54)
 
-
-### Upload o Dataset no Notebook
-- Pegue o csv criado no LLM e faça o upload dentro da seção Notebook
-- Usamos o local file
-- Ir até a instância de Computação e abrir o aplicativo jupyter LAB.
-
   ### Criar jobs pelo script Python e visualizar no Workspace do Azure Machine Learning
 
   ![image](https://github.com/user-attachments/assets/90191209-ee2a-4e30-bf73-1cb72b6eb48a)
   ![image](https://github.com/user-attachments/assets/aa80f326-e56b-4ea1-a57d-3cc738facd6f)
+
+
+  ### Upload o Dataset no Notebook
+- Pegue o csv criado no LLM e faça o upload dentro da seção Notebook
+- Usamos o local file
+- Ir até a instância de Computação e abrir o aplicativo jupyter LAB.
+  
   ![image](https://github.com/user-attachments/assets/16e8696b-8216-41d9-8adc-4ae5d319609a)
 
 
