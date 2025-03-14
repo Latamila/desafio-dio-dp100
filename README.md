@@ -468,3 +468,12 @@ Para este escolhi um endpoint em tempo real:
 ![image](https://github.com/user-attachments/assets/2ece36b6-62ed-47f0-a16f-299143adde63)
 
 
+![image](https://github.com/user-attachments/assets/97721bd1-6e2b-4de1-b9c3-5792c04f85a9)
+![image](https://github.com/user-attachments/assets/3c6f7940-bdd2-4974-8c29-784cc8fb3cc3)
+![image](https://github.com/user-attachments/assets/ca32831f-763e-49ed-8215-819293832425)
+![image](https://github.com/user-attachments/assets/f9db767b-2dff-462c-bce2-6928ccc1e4ce)
+![image](https://github.com/user-attachments/assets/eb5a7310-70a3-44b4-ad3e-c9c2bd3fa7c2)
+![image](https://github.com/user-attachments/assets/04025b5f-8979-4856-be73-e1e8a2d0de73)
+![image](https://github.com/user-attachments/assets/997b5700-ee7b-428b-af16-8c0669483007)
+
+
