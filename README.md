@@ -276,6 +276,29 @@ Previsão
 ![image](https://github.com/user-attachments/assets/4b73aeab-99df-44c2-80cc-f814e8cc6228)
 
 
+### RESULTADOS 
+
+![image](https://github.com/user-attachments/assets/92c7abd0-644e-4d8e-bfbe-153f158f41d8)
+
+![image](https://github.com/user-attachments/assets/3a55aeb0-a299-4c27-b643-a23cd6fb9802)
+![image](https://github.com/user-attachments/assets/1d5ddc5d-0814-4f84-9617-08524ca89166)
+![image](https://github.com/user-attachments/assets/38b29a3c-284b-406a-bfb2-b5d45f2622c1)
+
+
+### EXPLICAÇÕES E MÉTRICAS
+
+![image](https://github.com/user-attachments/assets/c1c8aee2-37e9-4f1a-a38d-1026a1e81d21)
+
+![image](https://github.com/user-attachments/assets/0ae1f81b-01a9-4fe5-a029-9c9fd4a689b8)
+![image](https://github.com/user-attachments/assets/844e0b2e-0685-456a-b1b3-f0f2ae357818)
+![image](https://github.com/user-attachments/assets/a5bf9013-d6b7-4e4a-b746-08df4f25de2e)
+![image](https://github.com/user-attachments/assets/bdb74832-2fb7-469f-80fa-6310107b8424)
+
+
+
+
+
+
 
 
 
@@ -330,6 +353,25 @@ Previsão
 ![image](https://github.com/user-attachments/assets/7c6b9aeb-df85-47db-950c-561bb38b794e)
 ![image](https://github.com/user-attachments/assets/6ad8e253-533e-4f36-b60f-77de93143166)
 
+![image](https://github.com/user-attachments/assets/1485cd20-c1a2-4851-89eb-580da69905d7)
+
+Logs gerados 
+
+![image](https://github.com/user-attachments/assets/91693ee4-a0d3-430e-b48f-a662807977bf)
+
+
+### RESULTADOS DO DESIGNER MACHINE LEARNING 
+
+### Score Model 
+
+![image](https://github.com/user-attachments/assets/7f786b6d-bdba-499b-b27d-fb8af985b096)
+
+### Métricas de Avaliação do Modelo 
+
+![image](https://github.com/user-attachments/assets/6a78bae0-130a-4891-bd52-f5385b3760b5)
+
+
+
 
 
 
@@ -343,14 +385,45 @@ No Bash
 
 Se seu recomenda atualizações, execute-as antes do projeto. 
 
+![image](https://github.com/user-attachments/assets/09806a1d-a894-4840-87a8-26f46370e624)
+
+![image](https://github.com/user-attachments/assets/1c702f04-8a60-4d5d-9013-415738e6d87e)
+
+![image](https://github.com/user-attachments/assets/19a620b2-49f8-4fb5-ae66-805b75697ffc)
+
+![image](https://github.com/user-attachments/assets/331d9832-16fd-4f07-9e86-ab4ab12ec205)
+
+![image](https://github.com/user-attachments/assets/55b2e3b5-5928-4591-80a1-b9860d21fffb)
+
+![image](https://github.com/user-attachments/assets/1f1f7252-eb85-4772-8937-b8f52951d710)
+
+![image](https://github.com/user-attachments/assets/e9b8a3d5-ab5e-44fa-9662-efd9b589caa9)
+
+![image](https://github.com/user-attachments/assets/65108e9e-fe29-441d-9c58-476f616f5cbf)
 
 
 
+###RODANDO O SCRIPT GERADO NA SEÇÃO NOTEBOOK
 
+![image](https://github.com/user-attachments/assets/87245776-1b50-467c-8ce0-1a29998909bf)
 
+![image](https://github.com/user-attachments/assets/ad245712-74f2-494d-8e5f-dc96ec0b3c65)
 
+![image](https://github.com/user-attachments/assets/0ea1a642-fc3f-462c-85d3-ad68be25f138)
 
+![image](https://github.com/user-attachments/assets/3902df5b-73ad-4617-a423-f0f7aed13c18)
 
+![image](https://github.com/user-attachments/assets/d6a4e995-ad59-42f0-8e76-69eb894f7fff)
+
+![image](https://github.com/user-attachments/assets/5fdf3f60-825b-4520-b883-b40807266ed1)
+
+![image](https://github.com/user-attachments/assets/5a84fecc-b7c6-4371-baf4-1396d2ea2427)
+
+![image](https://github.com/user-attachments/assets/e8dd70d0-d2c0-4389-8b69-c30ef35780d3)
+
+![image](https://github.com/user-attachments/assets/4e6bdd2e-8425-419f-b114-4f0ccc82cf29)
+
+![image](https://github.com/user-attachments/assets/98157a6d-ef44-4095-9149-6d64161be6cc)
 
 
 
