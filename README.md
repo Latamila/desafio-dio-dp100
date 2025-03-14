@@ -98,6 +98,10 @@ Fazer Pré processamento dos dados, transformando o dataset inicial em um sample
 
   ![image](https://github.com/user-attachments/assets/6a15fc41-1b0b-468b-a19a-90481f5ca465)
 
+sample.csv
+  ![image](https://github.com/user-attachments/assets/7a22e0eb-2e9d-4eb7-85d8-64afcdc38428)
+
+
 
 ## 1.7 Treinar um modelo de Regressão
 
