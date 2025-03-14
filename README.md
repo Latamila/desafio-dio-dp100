@@ -110,7 +110,28 @@ Fazer Pré processamento dos dados, transformando o dataset inicial em um sample
 sample.csv
   ![image](https://github.com/user-attachments/assets/7a22e0eb-2e9d-4eb7-85d8-64afcdc38428)
 
+Retrieve experiment details using the SDK
+The run variable in the code you ran previously is an instance of a Run object, which is a reference to an individual run of an experiment in Azure Machine Learning. You can use this reference to get information about the run and its outputs:
 
+  ![image](https://github.com/user-attachments/assets/1d142d55-2014-47d0-80e8-5e1559f23576)
+
+
+You can download the files produced by the experiment, either individually by using the download_file method, or by using the download_files method to retrieve multiple files. The following code downloads all of the files in the run's output folder:
+
+![image](https://github.com/user-attachments/assets/1d9d76cc-f36a-42d2-9fd9-23e1cd9cca18)
+
+If ou need to troubleshoot the experiment run, you can use the get_details method to retrieve basic details about the run, or you can use the get_details_with_logs method to retrieve the run details as well as the contents of log files generated during the run:
+
+![image](https://github.com/user-attachments/assets/136f6470-6739-4c81-8c7c-ddfe2061c1c7)
+
+
+
+
+
+# Verify the files have been downloaded
+for root, directories, filenames in os.walk(download_folder): 
+    for filename in filenames:  
+        print (os.path.join(root,filename))
 
 ## 1.7 Treinar um modelo de Regressão
 
