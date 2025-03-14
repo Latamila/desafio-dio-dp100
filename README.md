@@ -284,6 +284,8 @@ Previsão
 ![image](https://github.com/user-attachments/assets/3a55aeb0-a299-4c27-b643-a23cd6fb9802)
 ![image](https://github.com/user-attachments/assets/1d5ddc5d-0814-4f84-9617-08524ca89166)
 ![image](https://github.com/user-attachments/assets/38b29a3c-284b-406a-bfb2-b5d45f2622c1)
+![image](https://github.com/user-attachments/assets/a0f66f05-ec2b-4ca1-9dca-ec4ea4c57f8d)
+
 
 
 ### EXPLICAÇÕES E MÉTRICAS
