@@ -138,15 +138,6 @@ First, let's create a folder for the experiment files, and copy the data into it
 
 
 
-
-# Verify the files have been downloaded
-for root, directories, filenames in os.walk(download_folder): 
-    for filename in filenames:  
-        print (os.path.join(root,filename))
-
-## 1.7 Treinar um modelo de Regressão
-
-
 Now we'll create a Python script containing the code for our experiment, and save it in the experiment folder.
 
 Note: running the following cell just creates the script file - it doesn't run it!
@@ -187,8 +178,11 @@ Now that you've run the same experiment multiple times, you can view the history
 ![image](https://github.com/user-attachments/assets/b95f5237-84d5-4c42-89d1-120ecfb8a01e)
 
 
-Use MLflow
+### **Use MLflow**
+
+
 MLflow is an open source platform for managing machine learning processes. It's commonly (but not exclusively) used in Databricks environments to coordinate experiments and track metrics. In Azure Machine Learning experiments, you can use MLflow to track metrics as an alternative to the native log functionality.
+Acompanhamento é o processo de salvar informações relevantes sobre experimentos. Neste estudo de caso, você aprenderá a usar o MLflow para acompanhar seus experimentos e execuções em workspaces do Azure Machine Learning.
 
 To take advantage of this capability, you'll need the mlflow and azureml-mlflow packages.
 
@@ -320,7 +314,24 @@ Previsão
 
 ![image](https://github.com/user-attachments/assets/62b5c492-15af-461f-be4a-6444f96ca80a)
 
+![image](https://github.com/user-attachments/assets/81ef344f-c7fd-4534-922a-260e9915cb8a)
+
+
 ![image](https://github.com/user-attachments/assets/fd599799-25e5-4ef0-a576-52860857d674)
+
+![image](https://github.com/user-attachments/assets/ac210ca1-7e95-40dd-844d-299615a28436)
+
+![image](https://github.com/user-attachments/assets/9a199b38-a4b7-4e26-a2f9-8ef126dc1d05)
+
+![image](https://github.com/user-attachments/assets/2e189eba-4cef-4e3b-b9f5-ffb5a600a41f)
+
+### Modelo Treinado
+
+![image](https://github.com/user-attachments/assets/7c6b9aeb-df85-47db-950c-561bb38b794e)
+![image](https://github.com/user-attachments/assets/6ad8e253-533e-4f36-b60f-77de93143166)
+
+
+
 
 
 
