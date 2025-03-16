@@ -11,17 +11,7 @@ created_date: 2025-03-14
 <h1>Projeto 1 -  **Previsão de Vendas de Açaí – Um Modelo de Machine Learning Aplicado à Açaiteria Serra do Cipó**</h1>
 
 
-<h2> Sumário </h2>
-- [ ] Caso de uso 
-- [ ] Requisitos 
-- [ ] Conjunto de dados 
-- [ ] Prepara o ambiente no Azure Machine Learning
-- [ ] Carregar e explorar os dados de vendas de Açaí
-- [ ] Treinar um modelo de Regressão
-- [ ] Registrar o  modelo e os experimentos usando MLFlow
-- [ ] Implantar o modelo para fazer previsões em tempo real
-
-<h3> Caso de Uso </h3>
+<h2> Caso de Uso </h2>
 
 A **Açaiteria Serra do Cipó** é uma fábrica do frozien de açaí localizada em **Belo Horizonte** que fornece para Belo Horizonte e toda região metropolitana, onde o consumo de sorvetes é elevado ao longo do ano mas o clima parece influenciar a quantidade de açaí vendidos. Para otimizar a fabricação e as vendas, a área de negócios levantou a hipótese de realizar um estudo para confirmar a influência da temperatura nas vendas do produtos e assim, construir uma solução de previsão de vendas e impactar, positivamente, na sustentabilidade da Açaiteria e otimizar compras com fornecedores para a fabricaçao do frozie açaí. 
 
