@@ -71,6 +71,51 @@ experiment = Experiment(workspace=ws, name='projetoum-dpcem-mlflow')
 mlflow.set_experiment(experiment.name)
 
 #começa o experimento mlflow
-with mlflow.start_run():
-  print('Starting experiment:', experiment.name)
-  data = 
+with mlflow.start_run(run_name="hello-world-example") as run:
+    # Your code
+    print("Loading Data...")
+    data = pd.read_csv('dadosVendasAcai.csv')
+    
+    X,y = data[['temperaturaEmGraus']].values, data[['baldesAcaiVendas']].values
+    
+    X_train, X_test, y_train, y_test = train_test_split(X,y, test_size=0.20, random_state=0)
+    
+    reg = 0.01
+
+    print('Training a logistic regression model with regularization rate of', reg)
+    model = LogisticRegression(C=1/reg, solver="liblinear").fit(X_train, y_train)
+
+    #calculate accuracy
+    y_hat = model.predict(X_test)
+    acc = np.average(y_hat == y_test)
+    print('Accuracy:', acc)
+
+    #calculate Auc
+
+    y_scores = model.predict_proba(X_test)
+    auc = roc_auc_score(y_test, y_scores[:,1])
+    print('AUC: ' + str(auc))
+    
+    mlflow.end_run()
+
+
+run = mlflow.get_run("<RUN_ID>")
+
+metrics = run.data.metrics
+params = run.data.params
+tags = run.data.tags
+print('Run complete')
+
+print(metrics, params, tags) 
+
+##############################################################
+
+run = list(experiment.get_runs())[0]
+
+print('\nMetrics: ')
+metrics = run.get_metrics()
+for key in metrics.keys():
+  print(key, metrics.get(key))
+
+experiment_url = experiment.get_portal_url()
+print('See details at', experiment_url)
