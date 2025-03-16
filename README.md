@@ -314,7 +314,67 @@ Previsão
 
 
 
-### EXPLICAÇÕES E MÉTRICAS
+<h1> EXPLICAÇÕES E MÉTRICAS </h1>
+
+<h2>Métricas de Avaliação </h2>
+
+As seguintes métricas foram utilizadas para avaliar a performance do modelo:
+
+### Erro Absoluto Médio Normalizado (Normalized MAE): 0,096680
+
+Indica a média das diferenças absolutas entre as previsões e os valores reais, normalizada. Um valor próximo de zero é desejável e este resultado sugere um bom desempenho nesse aspecto.
+
+## Erro Mediano Absoluto Normalizado (Normalized Median AE): 0,075984
+
+Métrica robusta contra outliers, indicando que a maioria dos erros está concentrada em valores pequenos. O modelo apresenta bom resultado.
+
+# Erro de Quadrado da Média Raiz Normalizado (Normalized RMSE): 0,12917
+
+Mede a magnitude do erro. Embora o valor seja maior que o MAE, ele está relativamente baixo, mostrando que os erros não se espalham de forma descontrolada.
+
+# Erro de Log do Quadrado da Média Raiz Normalizado: 0,13318
+
+Indica que o logaritmo dos erros também está bem controlado, sugerindo estabilidade do modelo.
+
+# Pontuação R²: 0,66160
+
+Avalia a proporção da variabilidade dos dados explicada pelo modelo. Um valor de 0,66160 indica que aproximadamente 66% da variabilidade dos dados é explicada pelo modelo, o que é satisfatório em muitos casos, mas pode depender do contexto do domínio.
+
+# Erro de Raiz do Valor Quadrático Médio (RMSE): 7,7504
+
+Embora esta métrica seja influenciada por outliers, os valores absolutos devem ser comparados com a escala dos dados para uma interpretação mais robusta.
+
+# Erro de Log de Raiz do Valor Quadrático Médio: 0,11634
+
+Complementa o RMSE ao analisar os logs, mostrando que o erro, em escala logarítmica, está baixo.
+
+# Correlação de Spearman: 0,84747
+
+Mede a força e direção da relação monotônica entre variáveis. O valor alto (0,84747) demonstra que o modelo captura bem as tendências dos dados.
+
+<h2> Interpretação e Conclusão </h2>
+
+Com base nas métricas analisadas, destacam-se os seguintes pontos:
+
+O Normalized MAE e Normalized RMSE estão em níveis aceitáveis, indicando que os erros são baixos em média e têm variabilidade controlada.
+
+O valor de R² (0,66160) demonstra que o modelo é capaz de explicar uma parte significativa da variabilidade dos dados, embora haja espaço para melhorias.
+
+A Correlação de Spearman (0,84747) indica uma forte relação monotônica, evidenciando que o modelo respeita bem as tendências dos dados.
+
+Métricas baseadas em logarítmos confirmam que os erros estão bem distribuídos.
+
+<h1> Conclusão Geral</h1> 
+
+O modelo apresenta bom desempenho, especialmente para aplicações onde um nível moderado de erro é aceitável. No entanto, se o contexto exigir alta precisão (por exemplo, áreas como medicina ou finanças), pode ser necessário otimizar ou adotar técnicas avançadas de ajuste. De forma geral, o modelo é adequado para uso inicial.
+
+<h2>Recomendações para os Stakeholders</h2>
+
+Considere o modelo para implementação inicial, mas monitore seu desempenho em dados reais.
+
+Explore técnicas de ajuste fino para melhorar a explicação de variabilidade (R²).
+
+Realize uma análise de importância das características (features) para identificar possíveis variáveis de maior impacto que possam aprimorar a precisão.
 
 ![image](https://github.com/user-attachments/assets/c1c8aee2-37e9-4f1a-a38d-1026a1e81d21)
 
