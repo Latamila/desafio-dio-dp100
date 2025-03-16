@@ -381,7 +381,7 @@ Realize uma análise de importância das características (features) para identi
 ![image](https://github.com/user-attachments/assets/0ae1f81b-01a9-4fe5-a029-9c9fd4a689b8)
 ![image](https://github.com/user-attachments/assets/844e0b2e-0685-456a-b1b3-f0f2ae357818)
 ![image](https://github.com/user-attachments/assets/a5bf9013-d6b7-4e4a-b746-08df4f25de2e)
-![image](https://github.com/user-attachments/assets/bdb74832-2fb7-469f-80fa-6310107b8424)
+
 
 
 
