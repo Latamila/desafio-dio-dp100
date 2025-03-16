@@ -400,7 +400,7 @@ Aqui está a comparação direta das métricas em formato tabular para facilitar
 | **Erro de Quadrado da Média Raiz Normalizado** | 0,12917               | 8,728540              | A **Versão 1** apresenta um erro normalizado muito mais controlado em comparação à Versão 2.                                                            |
 | **Erro de Log do Quadrado da Média Raiz Normalizado** | 0,13318               | 4,559015              | O valor logarítmico do erro é bem menor na **Versão 1**, indicando maior estabilidade.                                                                   |
 | **Pontuação R²**                            | 0,66160               | 0,09668               | A **Versão 1** explica uma proporção muito maior da variabilidade dos dados (66,16%) do que a Versão 2 (9,67%).                                         |
-| **Erro de Raiz do Valor Quadrático Médio**  | 7,7504                | 0,1291733             | Embora as escalas de interpretação precisem ser consideradas, a **Versão 1** ainda parece ter menor erro absoluto médio.                                 |
+| **Erro de Raiz do Valor Quadrático Médio**  | 7,7504                | 0,1291733             | Embora as escalas de interpretação precisem ser consideradas, a **Versão 2** parece ter menor erro absoluto médio.                                 |
 | **Erro de Log de Raiz do Valor Quadrático Médio** | 0,11634               | 0.8474679             | A **Versão 1** também apresenta valores menores em log para erro absoluto 
 
 
