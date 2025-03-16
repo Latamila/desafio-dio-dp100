@@ -103,7 +103,7 @@ A coluna data foi retirada antes de ser inserida no Workspace do Azure.
 
 - Ir até a instância de Computação e abrir o aplicativo jupyter LAB.
 
-  Neste estudo de caso, me atentarei a demonstrar como integrar o MLFlow a um experimento genérico, mas o experimento completo caso queira está no arquivo run_experiment_MLFlow, neste repositório, dado que iremos implantar de ponta-a-ponta um modelo com AutoML e com Designer Azure Machine Learning. Apenas por questões de custos pois ###paguei pela execução do projeto no Portal Azure. 
+  Neste estudo de caso, me atentarei a demonstrar como integrar o MLFlow a um experimento genérico, mas o experimento completo caso queira está no arquivo run_experiment_MLFlow, neste repositório, dado que iremos implantar de ponta-a-ponta um modelo com AutoML e com Designer Azure Machine Learning. Apenas por questões de custos pois paguei pela execução do projeto no Portal Azure. 
   
   
   ![image](https://github.com/user-attachments/assets/16e8696b-8216-41d9-8adc-4ae5d319609a)
@@ -143,7 +143,7 @@ If ou need to troubleshoot the experiment run, you can use the get_details metho
 Note that the details include information about the compute target on which the experiment was run, the date and time when it started and ended. 
 
 
-### Run an experiment script
+<h1> Run an experiment script </h1>
 ---
 
 
@@ -201,7 +201,7 @@ Now that you've run the same experiment multiple times, you can view the history
 ![image](https://github.com/user-attachments/assets/b95f5237-84d5-4c42-89d1-120ecfb8a01e)
 
 
-### **Use MLflow**
+<h1> **Use MLflow** </h1>
 ---
 
 
@@ -255,7 +255,9 @@ logs gerados para monitoramento cliquei no link em destaque para visualizar em .
 As usual, you can get the logged metrics from the experiment run when it's finished.
 
 
-### 1.7.1 Criar um AutoML do Modelo
+<h1> 1.7.1 Criar um AutoML do Modelo </h1>
+-----
+
 - Fazemos um AutoML: 
 - New experiment name: experimento-automl
 - TaskType: Regression
@@ -330,7 +332,9 @@ Previsão
 
 
 
-## Criar um Designer
+<h1> Criar um Designer </h1>
+----
+
 - Vamos criar um designer um outra maneira de treinamos os modelos
   
 ![image](https://github.com/user-attachments/assets/b3508571-3832-4a63-9a5c-e466581dbe97)
