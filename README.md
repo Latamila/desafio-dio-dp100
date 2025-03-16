@@ -1,4 +1,7 @@
 # desafio-dio-dp100
+SE ESTE REPOSITÓRIO TE AJUDAR, ME DEIXE UMA ESTRELA E ME SIGA. SEMPRE ESTOU ESTUDANDO E POSTANDO AQUI NO GITHUB. VALEU...!!!
+
+
 Desafio da DIO para a Certificaçao DP100
 
 ---
@@ -525,6 +528,8 @@ Para este escolhi um endpoint em tempo real:
 
 # AGRADECIMENTOS
 
+dio.me pelo Bootcamp
+https://github.com/ammarasmro/mslearn-dp100/blob/main/04%20-%20Run%20Experiments.ipynb
 
 
 
