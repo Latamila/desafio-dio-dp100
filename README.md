@@ -124,7 +124,7 @@ sample.csv
 ### Retrieve experiment details using the SDK
 ---
 
-The *run* variable in the code you ran previously is an instance of a Run object, which is a reference to an individual run of an experiment in Azure Machine Learning. You can use this reference to get information about the run and its outputs:
+The *run* variable in the code I ran previously is an instance of a Run object, which is a reference to an individual run of an experiment in Azure Machine Learning. You can use this reference to get information about the run and its outputs:
 
   ![image](https://github.com/user-attachments/assets/1d142d55-2014-47d0-80e8-5e1559f23576)
 
