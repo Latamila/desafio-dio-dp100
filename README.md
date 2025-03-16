@@ -469,70 +469,26 @@ Logs gerados
 
 ![image](https://github.com/user-attachments/assets/7f786b6d-bdba-499b-b27d-fb8af985b096)
 
+Note que a coluna da esquerda são os dados reais, no centro a coluna de Temperatura e à direita, está o que foi previsto pelo Modelo. 
+
 ### Métricas de Avaliação do Modelo 
 
 ![image](https://github.com/user-attachments/assets/6a78bae0-130a-4891-bd52-f5385b3760b5)
 
 
+<h2>Interpretação Geral</h2>
 
+A RAE e o R² sugerem que o modelo oferece uma boa explicação para os dados, com um desempenho confiável e consistente.
 
+O valor de R² (0.7037) é superior ao modelo anterior (0.6616) feito com o AUTOML, indicando que esta versão captura uma maior proporção da variabilidade nos dados.
 
+O erro absoluto relativo (RAE) também está em um nível aceitável, reforçando que o modelo reduz o erro de maneira eficiente.
 
+Com base nesses resultados, o novo modelo apresenta bom desempenho, especialmente em termos de erro relativo, conforme indicado pelos valores baixos de RSE (0.296288) e RAE (0.378562). Embora os valores de MAE (5.402082) e RMSE (9.101607) possam parecer elevados, é essencial considerar o contexto e a escala dos dados para interpretá-los adequadamente.
 
+Comparando com os modelos anteriores, este parece ser o modelo mais forte até agora, especialmente por explicar uma maior porcentagem dos dados com um bom equilíbrio entre erro absoluto e relativo.
 
-### Tentando criar script para rodar Machine Learning com MLFlow
-
-No Bash
-
-![image](https://github.com/user-attachments/assets/1fe93e5e-7290-4900-98a9-3574594ee7ee)
-
-Se seu recomenda atualizações, execute-as antes do projeto. 
-
-![image](https://github.com/user-attachments/assets/09806a1d-a894-4840-87a8-26f46370e624)
-
-![image](https://github.com/user-attachments/assets/1c702f04-8a60-4d5d-9013-415738e6d87e)
-
-![image](https://github.com/user-attachments/assets/19a620b2-49f8-4fb5-ae66-805b75697ffc)
-
-![image](https://github.com/user-attachments/assets/331d9832-16fd-4f07-9e86-ab4ab12ec205)
-
-![image](https://github.com/user-attachments/assets/55b2e3b5-5928-4591-80a1-b9860d21fffb)
-
-![image](https://github.com/user-attachments/assets/1f1f7252-eb85-4772-8937-b8f52951d710)
-
-![image](https://github.com/user-attachments/assets/e9b8a3d5-ab5e-44fa-9662-efd9b589caa9)
-
-![image](https://github.com/user-attachments/assets/65108e9e-fe29-441d-9c58-476f616f5cbf)
-
-
-
-###RODANDO O SCRIPT GERADO NA SEÇÃO NOTEBOOK
-
-![image](https://github.com/user-attachments/assets/87245776-1b50-467c-8ce0-1a29998909bf)
-
-![image](https://github.com/user-attachments/assets/ad245712-74f2-494d-8e5f-dc96ec0b3c65)
-
-![image](https://github.com/user-attachments/assets/0ea1a642-fc3f-462c-85d3-ad68be25f138)
-
-![image](https://github.com/user-attachments/assets/3902df5b-73ad-4617-a423-f0f7aed13c18)
-
-![image](https://github.com/user-attachments/assets/d6a4e995-ad59-42f0-8e76-69eb894f7fff)
-
-![image](https://github.com/user-attachments/assets/5fdf3f60-825b-4520-b883-b40807266ed1)
-
-![image](https://github.com/user-attachments/assets/5a84fecc-b7c6-4371-baf4-1396d2ea2427)
-
-![image](https://github.com/user-attachments/assets/e8dd70d0-d2c0-4389-8b69-c30ef35780d3)
-
-![image](https://github.com/user-attachments/assets/4e6bdd2e-8425-419f-b114-4f0ccc82cf29)
-
-![image](https://github.com/user-attachments/assets/98157a6d-ef44-4095-9149-6d64161be6cc)
-
-
-
-# 1.9 Parabens Voce acabou o primeiro projeto
-
-### DEPLOY DO AUTOML 
+<h1> DEPLOY DO AUTOML </h1> 
 
 De todos os modelos treinados ao final foi escolhido este para deploy:
 
@@ -567,13 +523,8 @@ Para este escolhi um endpoint em tempo real:
 
 ![image](https://github.com/user-attachments/assets/2ece36b6-62ed-47f0-a16f-299143adde63)
 
+# AGRADECIMENTOS
 
-![image](https://github.com/user-attachments/assets/97721bd1-6e2b-4de1-b9c3-5792c04f85a9)
-![image](https://github.com/user-attachments/assets/3c6f7940-bdd2-4974-8c29-784cc8fb3cc3)
-![image](https://github.com/user-attachments/assets/ca32831f-763e-49ed-8215-819293832425)
-![image](https://github.com/user-attachments/assets/f9db767b-2dff-462c-bce2-6928ccc1e4ce)
-![image](https://github.com/user-attachments/assets/eb5a7310-70a3-44b4-ad3e-c9c2bd3fa7c2)
-![image](https://github.com/user-attachments/assets/04025b5f-8979-4856-be73-e1e8a2d0de73)
-![image](https://github.com/user-attachments/assets/997b5700-ee7b-428b-af16-8c0669483007)
+
 
 
