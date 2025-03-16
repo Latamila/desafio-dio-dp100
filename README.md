@@ -18,13 +18,13 @@ created_date: 2025-03-14
 - [ ] Registrar o  modelo e os experimentos usando MLFlow
 - [ ] Implantar o modelo para fazer previsões em tempo real
 
-<h3>**Caso de Uso**</h3>
+<h3> Caso de Uso </h3>
 
 A **Açaiteria Serra do Cipó** é uma fábrica do frozien de açaí localizada em **Belo Horizonte** que fornece para Belo Horizonte e toda região metropolitana, onde o consumo de sorvetes é elevado ao longo do ano mas o clima parece influenciar a quantidade de açaí vendidos. Para otimizar a fabricação e as vendas, a área de negócios levantou a hipótese de realizar um estudo para confirmar a influência da temperatura nas vendas do produtos e assim, construir uma solução de previsão de vendas e impactar, positivamente, na sustentabilidade da Açaiteria e otimizar compras com fornecedores para a fabricaçao do frozie açaí. 
 
 Com base na observação de que a quantidade de baldes de açai de 30L vendidos diariamente apresenta uma forte correlação com a temperatura ambiente, a **Açaiteria** identificou um desafio operacional crítico: **como otimizar a produção para evitar desperdícios e, ao mesmo tempo, garantir que o estoque seja suficiente para atender à demanda?** Produzir além do necessário pode gerar prejuízos devido maior espaço para armazenamento, maior gasto com energia para refrigeração, menor fornecimento de frozie açaí fresco, enquanto uma produção abaixo da demanda pode resultar em oportunidades de venda perdidas.
 
-<h3> 1.3 **Desafio e Solução** </h3>
+<h3> Desafio e Solução </h3>
 
 Para solucionar esse problema, foi desenvolvido um modelo de **Machine Learning** capaz de prever a quantidade de baldes de açaí de 30L que serão vendidos com base na temperatura. Esse modelo permite à açaiteria antecipar a demanda, ajustar a produção de forma estratégica e garantir um gerenciamento de estoque mais eficiente.
 
@@ -58,7 +58,7 @@ A coluna data foi retirada antes de ser inserida no Workspace do Azure.
 
 
 
-## Preparando o ambiente no Azure Machine Learning
+<h1> Preparando o ambiente no Azure Machine Learning </h1>
 
 - [ ] Criar um Resource Group
 - [ ] Atribua um nome
@@ -68,7 +68,7 @@ A coluna data foi retirada antes de ser inserida no Workspace do Azure.
 
 
 
-### Cria o Machine Learning Workspace
+<h2> Cria o Machine Learning Workspace </h2>
 
 - [ ] Atribua um nome
 
@@ -98,12 +98,12 @@ A coluna data foi retirada antes de ser inserida no Workspace do Azure.
   ![image](https://github.com/user-attachments/assets/aa80f326-e56b-4ea1-a57d-3cc738facd6f)
 
 
-  ### Criar Notebook para o Experimento com MLFlow
-  ---
+  <h2> Criar Notebook para o Experimento com MLFlow </h2>
+   ---
 
 - Ir até a instância de Computação e abrir o aplicativo jupyter LAB.
 
-  Neste estudo de caso, me atentarei a demonstrar como integrar o MLFlow a um experimento genérico dado que iremos implantar de ponta-a-ponta um modelo com AutoML e com Designer Azure Machine Learning.
+  Neste estudo de caso, me atentarei a demonstrar como integrar o MLFlow a um experimento genérico, mas o experimento completo caso queira está no arquivo run_experiment_MLFlow, neste repositório, dado que iremos implantar de ponta-a-ponta um modelo com AutoML e com Designer Azure Machine Learning. Apenas por questões de custos pois ###paguei pela execução do projeto no Portal Azure. 
   
   
   ![image](https://github.com/user-attachments/assets/16e8696b-8216-41d9-8adc-4ae5d319609a)
