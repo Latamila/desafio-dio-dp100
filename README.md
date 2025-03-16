@@ -520,6 +520,8 @@ Para este escolhi um endpoint em tempo real:
 # AGRADECIMENTOS
 
 dio.me pelo Bootcamp
+
+
 https://github.com/ammarasmro/mslearn-dp100/blob/main/04%20-%20Run%20Experiments.ipynb
 
 
