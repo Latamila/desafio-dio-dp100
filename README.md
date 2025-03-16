@@ -380,20 +380,32 @@ Realize uma análise de importância das características (features) para identi
 
 ![image](https://github.com/user-attachments/assets/0ae1f81b-01a9-4fe5-a029-9c9fd4a689b8)
 ![image](https://github.com/user-attachments/assets/844e0b2e-0685-456a-b1b3-f0f2ae357818)
+
+Aqui está as métricas de uma outra versão e será comparado com a acima exposta.
 ![image](https://github.com/user-attachments/assets/a5bf9013-d6b7-4e4a-b746-08df4f25de2e)
 
+**Comparação de Desempenho Entre as Versões do Modelo**
 
+Com base nas métricas fornecidas para as duas versões do modelo, vamos analisar e comparar os desempenhos para determinar qual delas apresenta melhores resultados.
 
+---
 
+### **Métricas de Avaliação - Versão 1 vs. Versão 2**
+Aqui está a comparação direta das métricas em formato tabular para facilitar a análise:
 
-
-
-
-
+| **Métrica**                                 | **Versão 1**           | **Versão 2**           | **Interpretação**                                                                                                                                       |
+|---------------------------------------------|------------------------|------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Erro Absoluto Médio Normalizado**         | 0,096680              | 0,762599              | A **Versão 1** tem um desempenho significativamente melhor, com menor erro absoluto médio normalizado.                                                  |
+| **Erro Mediano Absoluto Normalizado**       | 0,075984              | 5,800801              | Novamente, a **Versão 1** apresenta um erro muito menor, mostrando maior precisão em relação à mediana dos erros.                                        |
+| **Erro de Quadrado da Média Raiz Normalizado** | 0,12917               | 8,728540              | A **Versão 1** apresenta um erro normalizado muito mais controlado em comparação à Versão 2.                                                            |
+| **Erro de Log do Quadrado da Média Raiz Normalizado** | 0,13318               | 4,559015              | O valor logarítmico do erro é bem menor na **Versão 1**, indicando maior estabilidade.                                                                   |
+| **Pontuação R²**                            | 0,66160               | 0,09668               | A **Versão 1** explica uma proporção muito maior da variabilidade dos dados (66,16%) do que a Versão 2 (9,67%).                                         |
+| **Erro de Raiz do Valor Quadrático Médio**  | 7,7504                | 0,1291733             | Embora as escalas de interpretação precisem ser consideradas, a **Versão 1** ainda parece ter menor erro absoluto médio.                                 |
+| **Erro de Log de Raiz do Valor Quadrático Médio** | 0,11634               | 0.8474679             | A **Versão 1** também apresenta valores menores em log para erro absoluto 
 
 
 <h1> Criar um Designer </h1>
-----
+---
 
 - Vamos criar um designer um outra maneira de treinamos os modelos
   
