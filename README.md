@@ -146,7 +146,7 @@ Note that the details include information about the compute target on which the 
 ---
 
 
-In the previous example, you ran an experiment inline in this notebook. A more flexible solution is to create a separate script for the experiment, and store it in a folder along with any other files it needs, and then use Azure ML to run the experiment based on the script in the folder.
+In the previous example, I ran an experiment inline in this notebook. A more flexible solution is to create a separate script for the experiment, and store it in a folder along with any other files it needs, and then use Azure ML to run the experiment based on the script in the folder.
 
 
 Now we'll create a Python script containing the code for our experiment, and save it in the experiment folder.
