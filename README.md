@@ -5,8 +5,9 @@ SE ESTE REPOSITÓRIO TE AJUDAR, ME DEIXE UMA ESTRELA E ME SIGA. SEMPRE ESTOU EST
 Desafio da DIO para a Certificaçao DP100
 
 ---
-updated_date: 2025-03-14
-created_date: 2025-03-14
+updated_date: 2025-03-16
+
+created_date: 2025-03-16
 ---
 <h1>Projeto 1 -  **Previsão de Vendas de Açaí – Um Modelo de Machine Learning Aplicado à Açaiteria Serra do Cipó**</h1>
 
